@@ -7,16 +7,31 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <title>Item Management System</title>
   </head>
   <body>
-    <div class="container-fluid">
-      <h1>test</h1>
+
+      <div class="d-block p-3 text-center text-white bg-primary b4b">
+        Item Management System
+      </div>
+      <div class="jumbotron">
+        <div class="container">
+          <h1>
+            Item Details Table
+          </h1>
+          <p>
+            manage item inventory
+          </p>
+        </div>
+
+      </div>
+      <div class="container-fluid">
       <ul class="nav nav-tabs" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" data-toggle="tab" href="#home" role="tab">Home</a>
+          <a class="nav-link active" data-toggle="tab" href="#home" role="tab">walmart.com</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-toggle="tab" href="#profile" role="tab">Profile</a>
+          <a class="nav-link" data-toggle="tab" href="#profile" role="tab">grocery.walmart.com</a>
         </li>
       </ul>
       <div class="tab-content">
@@ -24,30 +39,46 @@
           <table class="table">
             <thead>
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
+              <th>Item ID</th>
+              <th>Product Name</th>
+              <th>Unit Price</th>
+              <th>2-DAY SHIPPING</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
+              <th scope="row">
+                10448059
+              </th>
+              <td>
+                Nabisco Ritz Peanut Butter Cracker Sandwiches, 1.38 oz, 8 pack
+              </td>
+              <td>
+                $2.78
+              </td>
+              <td>
+                &#10003;
+              </td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
+              <th scope="row">
+                136035188
+              </th>
+              <td>
+                Photive CYREN II Portable Waterproof Bluetooth Speaker. Rugged Shockproof Dustproof Water-Resistant Wireless Portable Bluetooth Speaker
+              </td>
+              <td>$29.99</td>
+              <td>&#10005;</td>
             </tr>
             <tr>
-              <th scope="row">3</th>
-              <td>Larry</td>
-              <td>the Bird</td>
-              <td>@twitter</td>
+              <th scope="row">
+                416541746
+              </th>
+              <td>
+                Super Nintendo Entertainment System: Super NES Classic Edition
+              </td>
+              <td>$118.82</td>
+              <td>&#10005;</td>
             </tr>
             </tbody>
           </table>
@@ -56,27 +87,37 @@
           <table class="table table-bordered">
             <thead class="thead-inverse">
             <tr>
-              <th>#</th>
-              <th>First Name</th>
-              <th>Last Name</th>
-              <th>Username</th>
-              <th>Username</th>
+              <th>Item ID</th>
+              <th>Product Name</th>
+              <th>Unit Price</th>
+              <th>Additional Product Details</th>
+              <th>Backorder</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-              <th scope="row">1</th>
-              <td>Mark</td>
-              <td>Otto</td>
-              <td>@mdo</td>
-              <td>@mdo</td>
+              <th scope="row">50733191</th>
+              <td>
+                Spring Valley Melatonin Tablets, 10 mg, 120 Ct
+              </td>
+              <td>
+                $6.88
+              </td>
+              <td>
+                Model Number: 2M076/S02282G
+              </td>
+              <td>
+                <button type="button" class="btn btn-secondary">Backorder</button>
+              </td>
             </tr>
             <tr>
-              <th scope="row">2</th>
-              <td>Jacob</td>
-              <td>Thornton</td>
-              <td>@fat</td>
-              <td>@fat</td>
+              <th scope="row">893220</th>
+              <td>Spring Valley Vitamin C Tablets, 500 mg, 100 Ct</td>
+              <td>$2.74</td>
+              <td>Model Number: 3770</td>
+              <td>
+                <button type="button" class="btn btn-secondary">Backorder</button>
+              </td>
             </tr>
             </tbody>
           </table>
